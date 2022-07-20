@@ -11,6 +11,8 @@ The global search flag makes the RegExp search for a pattern throughout the stri
 
 ## Groups
 
+Capturing groups are a way to treat multiple characters as a single unit. They are created by placing the characters to be grouped inside a set of parentheses. For example, the regular expression (cat) creates a single group containing the letters "c" "a" and "t".
+
 
 # Title (Password_Generator.md)
 
