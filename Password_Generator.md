@@ -72,6 +72,9 @@ The lazy mode of quantifiers is an opposite to the greedy mode. It mean repeat m
 
 ### Boundaries
 
+A word boundary is a zero-width test between two characters. 
+A word boundary, in most regex dialects, is a position between \w and \W (non-word char), or at the beginning or end of a string if it begins or ends (respectively) with a word character ( [0-9A-Za-z_] ). So, in the string "-12" , it would match before the 1 or after the 2.
+
 ### Back-references
 
 ### Look-ahead and Look-behind
