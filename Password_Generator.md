@@ -49,6 +49,9 @@ They do not match any character. Instead, they match a position before or after 
 
 ### Quantifiers
 
+Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found.
+Quantifiers are used to quantify how many times a part of your regular expression should be repeated.
+
 ### OR Operator
 
 Regular expressions are combinations of special character operators, which are symbols that control the search, that you can use to construct search strings for advanced find and/or replace searches.
