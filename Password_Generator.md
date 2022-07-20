@@ -77,6 +77,8 @@ A word boundary, in most regex dialects, is a position between \w and \W (non-wo
 
 ### Back-references
 
+Back-references are regular expression commands which refer to a previous part of the matched regular expression. Back-references are specified with backslash and a single digit (e.g. ' \1 '). The part of the regular expression they refer to is called a subexpression, and is designated with parentheses.
+
 ### Look-ahead and Look-behind
 
 ## Author
