@@ -51,6 +51,8 @@ They do not match any character. Instead, they match a position before or after 
 
 ### OR Operator
 
+Regular expressions are combinations of special character operators, which are symbols that control the search, that you can use to construct search strings for advanced find and/or replace searches.
+
 ### Character Classes
 
 In the context of regular expressions, a character class is a set of characters enclosed within square brackets. It specifies the characters that will successfully match a single character from a given input string.
