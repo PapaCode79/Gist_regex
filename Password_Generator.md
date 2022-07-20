@@ -44,6 +44,9 @@ My code is "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
 
 ### Anchors
 
+Anchors are regex tokens that don't match any characters but that say or assert something about the string or the matching process. Anchors inform us that the engine's current position in the string matches a determined location: for example, the beginning of the string/line, or the end of a string/line.
+They do not match any character. Instead, they match a position before or after characters.
+
 ### Quantifiers
 
 ### OR Operator
