@@ -35,3 +35,26 @@ My Password_generator.md is a Regular Express that allows us to check a form fie
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 
+## Regex Components
+
+### Anchors
+
+### Quantifiers
+
+### OR Operator
+
+### Character Classes
+
+### Flags
+
+### Grouping and Capturing
+
+### Bracket Expressions
+
+### Greedy and Lazy Match
+
+### Boundaries
+
+### Back-references
+
+### Look-ahead and Look-behind
