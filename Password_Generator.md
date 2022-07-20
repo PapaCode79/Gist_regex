@@ -60,7 +60,12 @@ Capturing groups are a way to treat multiple characters as a single unit. They a
 
 ### Bracket Expressions
 
+A bracket expression is either a matching list expression or a non-matching list expression. It consists of one or more expressions. Examples: ordinary characters, collating elements, collating symbols, equivalence classes, character classes, or range expressions. It indicate a set of characters to match. Any individual character between the brackets will match, and you can also use a hyphen to define a set.
+
 ### Greedy and Lazy Match
+
+Greedy means your expression will match as large a group as possible, lazy means it will match the smallest group possible. 
+The lazy mode of quantifiers is an opposite to the greedy mode. It mean repeat minimal number of times. Whereas, greedy quantifiers will match their preceding elements as much as possible.
 
 ### Boundaries
 
