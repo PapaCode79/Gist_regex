@@ -58,3 +58,8 @@ My Password_generator.md is a Regular Express that allows us to check a form fie
 ### Back-references
 
 ### Look-ahead and Look-behind
+
+## Author
+
+A short section about the author with a link to my GitHub profile.
+Salut! I am Badara Dia, a professional and aspiring Front-End and Back-End Web Developer. I am a George Washington Bootcamp Spring 2022 graduate for Full-stack Development.
