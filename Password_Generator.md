@@ -52,7 +52,11 @@ My code is "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
 
 ### Flags
 
+The global search flag makes the RegExp search for a pattern throughout the string, creating an array of all occurrences it can find matching the given pattern. It allow you to control the regex engine.
+
 ### Grouping and Capturing
+
+Capturing groups are a way to treat multiple characters as a single unit. They are created by placing the characters to be grouped inside a set of parentheses. For example, the regular expression (cat) creates a single group containing the letters "c" "a" and "t".
 
 ### Bracket Expressions
 
