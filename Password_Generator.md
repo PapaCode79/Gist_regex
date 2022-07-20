@@ -1,8 +1,11 @@
 # My Regex Password_generator.md
+
 Password-Generator.md
 
 ## Description
-A Regular Expressions allows us to check a series of characters for "matches". To make sure it confirms some kind of patterns to describe for matches we created.
+
+A regular expression (shortened as regex or regexp; sometimes referred to as rational expression) is a sequence of characters that specifies a search pattern in text. Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation.
+It allows us to check a series of characters for "matches". To make sure it confirms some kind of patterns to describe for matches we created.
 
 ## Flags
 
@@ -41,6 +44,8 @@ My code is "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
 
 
 ## Regex Components
+
+Anchors, Quantifiers, OR Operator, Character Classes, Flags, Grouping and Capturing,Bracket Expressions, Greedy and Lazy Match, Boundaries, Back-references and Look-ahead and look-behind.
 
 ### Anchors
 
