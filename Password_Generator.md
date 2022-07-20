@@ -53,6 +53,10 @@ They do not match any character. Instead, they match a position before or after 
 
 ### Character Classes
 
+In the context of regular expressions, a character class is a set of characters enclosed within square brackets. It specifies the characters that will successfully match a single character from a given input string.
+Character classes are one of the most commonly used features of regular expressions. You can find a word, even if it is misspelled, such as sep[ae]r.
+
+
 ### Flags
 
 The global search flag makes the RegExp search for a pattern throughout the string, creating an array of all occurrences it can find matching the given pattern. It allow you to control the regex engine.
@@ -80,6 +84,9 @@ A word boundary, in most regex dialects, is a position between \w and \W (non-wo
 Back-references are regular expression commands which refer to a previous part of the matched regular expression. Back-references are specified with backslash and a single digit (e.g. ' \1 '). The part of the regular expression they refer to is called a subexpression, and is designated with parentheses.
 
 ### Look-ahead and Look-behind
+
+ Lookahead and lookbehind (commonly referred to as “lookaround”) are useful when we'd like to match something depending on the context before/.
+The lookbehind asserts that what immediately precedes the current position is a lowercase letter. And the lookahead asserts that what immediately follows the current position is an uppercase letter.
 
 ## Author
 
